@@ -20,6 +20,10 @@ create mongodb replicaSet
 
 now you can connect to replicaSet with `mongodb://localhost:27017,localhost:27018,localhost:27019/?replicaSet=rs0&authSource=yourDB`
 
+### Setup for local development with docker-compose
+
+[setup replicaSet mongo with docker-compose](https://github.com/alikarimii/mongodb_cluster/tree/main/development-docker)
+
 ### Setup for production with docker
 
 soon...
